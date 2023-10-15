@@ -1,0 +1,21 @@
+.outer {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+
+.container {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    width: 100vw;
+}

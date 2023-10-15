@@ -1,0 +1,93 @@
+.img {
+    width: 70vh;
+    height: 70vh;
+    margin-left: 120px;
+}
+.wrapper {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+}
+
+/* Define the button class for the elevated button */
+.elevated-button {
+    font-family: "Trebuchet MS", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 32px;
+    font-size: 24px;
+    background: linear-gradient(to right, #0052a7, #00a5e5); /* Dark to light blue gradient */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation effect */
+    cursor: pointer;
+    width: 30vh;
+    height: 10vh;
+    transition: box-shadow 0.3s; /* Add a smooth transition to the box shadow on hover */
+}
+
+.text-button {
+    font-family: "Trebuchet MS", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 32px 32px 0 0;
+    font-size: 24px;
+    color: #000; /* Button text color */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 20vh;
+    height: 10vh;
+    transition: box-shadow 0.3s; /* Add a smooth transition to the box shadow on hover */
+}
+
+.flat-button {
+    font-family: "Trebuchet MS", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 32px 64px 0 0;
+    font-size: 24px;
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 20vh;
+    height: 10vh;
+    transition: box-shadow 0.3s; /* Add a smooth transition to the box shadow on hover */
+}
+
+.margin-button {
+    margin: 32px 64px 0 0;
+}
+
+.elevated-button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increase elevation on hover */
+}
+
+.blue-gradient:hover {
+    background: linear-gradient(to right, #004095, #0093d3); /* Increase elevation on hover */
+}
+
+.text-button:hover {
+    background-color: #eaeaea; /* Increase elevation on hover */
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #0052a7, #00a5e5);
+}
+
+.green-gradient {
+    background: linear-gradient(to right, #006e17, #00a721);
+}
+.green-gradient:hover {
+    background: linear-gradient(to right, #005d06, #009610);
+}
